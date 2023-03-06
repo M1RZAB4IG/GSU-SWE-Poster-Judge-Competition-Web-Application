@@ -1,0 +1,21 @@
+html {
+background: #faf7f2;
+}
+
+body {
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+}
+
+h1 {
+	font-family: courier;
+}
+
+img {
+	border-color: gray;
+	border-width: .25em;	
+	border-style: double;
+}
