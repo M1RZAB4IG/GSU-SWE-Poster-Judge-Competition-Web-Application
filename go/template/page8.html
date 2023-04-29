@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My HTML Template</title>
+  <link rel="stylesheet" type="text/css" href="Poster.css">
+</head>
+<style>
+  /* CSS styling for the header */
+.header {
+	display:flex;
+	background: #1539a5;
+	background: -webkit-linear-gradient(to left, #fff,#1539a5, #1539a5);
+    background: linear-gradient(to left, #fff,#1539a5, #1539a5);
+    color: #fff;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.logo{
+	display: flex;
+    width: 100px;
+    margin-right: .5rem;
+}
+
+/* CSS styling for the image container */
+.image-container {
+	float: left;
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* CSS styling for the image */
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	height: auto;
+}
+
+/* CSS styling for the table container */
+.table-container {
+	float: right;
+	width: 50%;
+}
+
+/* CSS styling for the table */
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table td {
+	padding: 10px;
+	text-align: center;
+    background-color: lightgray;
+}
+
+table th {
+	padding: 10px;
+	text-align: center;
+	background-color: #1539a5;
+	color: white;
+}
+
+table, th, td {
+    border: none;
+}
+
+.description {
+	float: inline-end;
+}
+
+.description-content {
+	font-size: 18px;
+	text-align: justify;
+	padding-right: 5%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.button-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* CSS styling for the button */
+#btn1 {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #378de5 3%, #1539a5 100%);
+    border-radius: 30px;
+    border: 1px solid #1539a5;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+    text-shadow: 0px 1px 0px #1539a5;
+	text-align: center;
+}
+
+.btn:hover {
+    box-shadow: 3px 8px 22px rgba(94,28,68,.15);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+/* CSS styling for the border */
+.border {
+	border-bottom: 2px solid black;
+	margin-top: 20px;
+}
+</style>
+
+<body>
+  <!-- Top header -->
+  <div class="header">
+    <img class="logo" alt="logo"
+      src="https://imgs.search.brave.com/5zTHfO-HdFDmZ1PSq_wC-zEpQekpsvRxskU7Im-7HD4/rs:fit:244:206:1/g:ce/aHR0cHM6Ly93d3cu/YXRsYW50YXB1Ymxp/Y3NjaG9vbHMudXMv/Y21zL2xpYi9HQTAx/MDAwOTI0L0NlbnRy/aWNpdHkvRG9tYWlu/LzEyODIyL0dTVS5w/bmc">
+    <div class="title">
+      <h1>Poster Competition M.S Judge's Page</h1>
+    </div>
+  </div>
+
+  <!-- Image container -->
+  <div class="image-container">
+
+    <!-- Image placeholder -->
+    <img src="https://i.pinimg.com/236x/33/31/39/3331390e0116f986339dc8ec9a6179c2.jpg" alt="Placeholder Image"
+      class="image">
+  </div>
+
+  <br>
+
+  <div class="heading-title">
+    <div class="heading-content">
+      <h1>
+        Poster Entry 1
+      </h1>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="description-content">
+      <p>This poster was created by Lucas. This is a M.S level entry poster. This poster shows information on the data protection act. </p>
+    </div>
+  </div>
+
+  <!-- Table container -->
+  <div class="table-container">
+    <!-- Table with last row for input -->
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Appeal</th>
+          <th>Organization</th>
+          <th>Creativity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Find a way to input data here -->
+          <td>5</td>
+          <td>4</td>
+          <td>6</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="image-container">
+
+    <!-- Image placeholder -->
+    <img src="https://i.cs.hku.hk/fyp/2019/poster/fyp19033.jpg" alt="Placeholder Image" class="image">
+  </div>
+
+  <br>
+
+  <div class="heading-title">
+    <div class="heading-content">
+      <h1>
+        Poster Entry 2
+      </h1>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="description-content">
+      <p>This poster was created by Allen. This is a M.S level entry poster. This poster is designed to raise awareness on cybersecurity. </p>
+    </div>
+  </div>
+
+  <!-- Table container -->
+  <div class="table-container">
+    <!-- Table with last row for input -->
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Appeal</th>
+          <th>Organization</th>
+          <th>Creativity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Find a way to input data here -->
+          <td>8</td>
+          <td>8</td>
+          <td>9</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="image-container">
+
+    <!-- Image placeholder -->
+    <img src="https://i.pinimg.com/222x/22/62/48/22624875e8397f2d9d2c91f2b175a876.jpg" alt="Placeholder Image"
+      class="image">
+  </div>
+
+  <br>
+
+  <div class="heading-title">
+    <div class="heading-content">
+      <h1>
+        Poster Entry 3
+      </h1>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="description-content">
+      <p>This poster was created by Daniel. This is a M.S level entry poster. This poster displays tips for designing improved academic research posters. </p>
+    </div>
+  </div>
+
+  <!-- Table container -->
+  <div class="table-container">
+    <!-- Table with last row for input -->
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Appeal</th>
+          <th>Organization</th>
+          <th>Creativity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Find a way to input data here -->
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="image-container">
+
+    <!-- Image placeholder -->
+    <img src="https://i.cs.hku.hk/fyp/2019/poster/fyp19040.jpg"
+      alt=" Placeholder Image" class="image">
+  </div>
+
+  <br>
+
+  <div class="heading-title">
+    <div class="heading-content">
+      <h1>
+        Poster Entry 4
+      </h1>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="description-content">
+      <p>This poster was created by Mary. This is a M.S level entry poster. This poster shows a 3D game on cybersecurity. </p>
+    </div>
+  </div>
+
+  <!-- Table container -->
+  <div class="table-container">
+    <!-- Table with last row for input -->
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Appeal</th>
+          <th>Organization</th>
+          <th>Creativity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Find a way to input data here -->
+          <td>4</td>
+          <td>6</td>
+          <td>2</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <div class="image-container">
+
+    <!-- Image placeholder -->
+    <img src="https://i.cs.hku.hk/fyp/2019/poster/fyp19026.jpg" alt="Placeholder Image" class="image">
+  </div>
+  <div class="button-container">
+    <a href="{% url 'webpage7' %}"><button class='btn' id='btn1'>Results</button></a>
+  </div>
+</body>
+
+</html>
